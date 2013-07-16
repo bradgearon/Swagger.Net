@@ -71,9 +71,6 @@ namespace Custom.ApiDescriber
         public IEnumerable<ErrorMetadata> ErrorResponses { get; set; }  // Todo: Populate Error Responses
     }
 
-
-
-
     public class ControllerMetadata : Metadata
     {
         public string ParentController { get; set; }
